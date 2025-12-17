@@ -8,8 +8,8 @@ print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 
 people += 2 #Eric and Brandon are coming too.
-share = total_number_of_slices % people
-leftover = total_number_of_slices % share
+share = total_number_of_slices // people
+leftover = total_number_of_slices // total_number_of_slices
 print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 
