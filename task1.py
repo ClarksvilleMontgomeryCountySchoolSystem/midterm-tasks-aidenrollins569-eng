@@ -3,7 +3,7 @@ print(f"Total number of slices: {total_number_of_slices}")
 
 people += 1
 share = total_number_of_slices // people
-leftover = total_number_of_slices - total_number_of_slices
+leftover = total_number_of_slices - people * share
 print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 
